@@ -4,9 +4,9 @@ import Link from "next/link";
 const StudentInfo = () => {
   return (
     <div>
-      <p>Harjap Singh</p>
-      <Link className="underline" href="https://github.com/Harjap-Sngh">
-        https://github.com/Harjap-Sngh
+      <p>Yuvraj Bhalla</p>
+      <Link className="underline" href="https://github.com/its-yuvi-bhalla">
+        https://github.com/its-yuvi-bhalla
       </Link>
     </div>
   );
