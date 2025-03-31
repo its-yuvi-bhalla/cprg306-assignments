@@ -19,11 +19,19 @@ const NewItem = () => {
   };
 
   const addItem = () => {
-    if(itemName === '') {}else{
-    alert(`Added item: ${itemName}, quantity:${quantity} , category: ${category}`);
-    quantity = 1;
-    category = 'produce';
-    itemName = '';}
+    if(itemName === '') {
+
+    }
+    
+    else{
+    console.log(`Added item: ${itemName}, quantity:${quantity} , category: ${category}`)
+    alert(`Added item: ${itemName}, quantity:${quantity} , category: ${category}`)
+    quantity = 1
+    category = 'produce'
+    itemName = ''
+    
+  }
+    
   };
 
 
